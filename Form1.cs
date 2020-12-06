@@ -68,7 +68,7 @@ namespace PointCloudToGLB
 			model.UseScene("Default").CreateNode().WithMesh(model.LogicalMeshes[0]);
 			if (listBox1.SelectedItem.ToString() == "GLTF") { model.SaveGLTF($@"{SaveFolderPath}\Export_Part-{i1}.gltf"); }
 			else if (listBox1.SelectedItem.ToString() == "GLB") { model.SaveGLB($@"{SaveFolderPath}\Export_Part-{i1}.glb"); }
-			else if (listBox1.SelectedItem.ToString() == "OBJ") { model.SaveAsWavefront($@"{SaveFolderPath}\Export_Part-{i1}.obj"); }
+			//else if (listBox1.SelectedItem.ToString() == "OBJ") { model.SaveAsWavefront($@"{SaveFolderPath}\Export_Part-{i1}.obj"); }
 			mesh = null;
 
 		}

@@ -29,6 +29,7 @@ namespace PointCloudToGLB
 		/// </summary>
 		private void InitializeComponent()
 		{
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
 			this.label1 = new System.Windows.Forms.Label();
 			this.button1 = new System.Windows.Forms.Button();
 			this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
@@ -121,8 +122,7 @@ namespace PointCloudToGLB
 			this.listBox1.FormattingEnabled = true;
 			this.listBox1.Items.AddRange(new object[] {
             "GLTF",
-            "GLB",
-            "OBJ"});
+            "GLB"});
 			this.listBox1.Location = new System.Drawing.Point(16, 96);
 			this.listBox1.Name = "listBox1";
 			this.listBox1.Size = new System.Drawing.Size(148, 56);
@@ -143,6 +143,7 @@ namespace PointCloudToGLB
 			this.Controls.Add(this.label3);
 			this.Controls.Add(this.label2);
 			this.Controls.Add(this.label1);
+			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.Name = "Form1";
 			this.Text = "PointCloud to Chronos";
 			this.ResumeLayout(false);

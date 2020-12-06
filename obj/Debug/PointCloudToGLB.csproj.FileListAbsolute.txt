@@ -43,7 +43,6 @@ C:\Work\Code\PointCloudToGLTF\bin\Debug\SharpGLTF.Core.xml
 C:\Work\Code\PointCloudToGLTF\bin\Debug\SharpGLTF.Toolkit.pdb
 C:\Work\Code\PointCloudToGLTF\bin\Debug\SharpGLTF.Toolkit.xml
 C:\Work\Code\PointCloudToGLTF\bin\Debug\System.Numerics.Vectors.xml
-C:\Work\Code\PointCloudToGLTF\obj\Debug\PointCloudToGLB.csprojAssemblyReference.cache
 C:\Work\Code\PointCloudToGLTF\obj\Debug\PointCloudToGLB.exe.config
 C:\Work\Code\PointCloudToGLTF\obj\Debug\PointCloudToGLB.Form1.resources
 C:\Work\Code\PointCloudToGLTF\obj\Debug\PointCloudToGLB.Properties.Resources.resources
